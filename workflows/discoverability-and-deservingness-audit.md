@@ -7,7 +7,6 @@ audit-information-architecture
 -> audit-on-page-signals
 -> audit-helpful-content
 -> audit-spam-policy-risk
--> audit-page-experience
 ```
 
 ## Sequence logic
@@ -16,7 +15,6 @@ audit-information-architecture
 2. Inspect how individual pages describe themselves.
 3. Judge whether the content deserves visibility once found.
 4. Separate ordinary quality weakness from manipulative policy risk.
-5. Check whether the page experience itself undermines the user-facing value.
 
 ## Conditional extensions
 
@@ -33,7 +31,6 @@ Merge outputs into:
 - page-interpretation risks
 - content-quality risks
 - spam-policy risks
-- page-experience risks
 - media visibility opportunities when applicable
 - structured-data eligibility issues when applicable
 

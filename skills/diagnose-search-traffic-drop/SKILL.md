@@ -52,3 +52,14 @@ Produce:
 - evidence for and against each likely cause
 - next diagnostic step
 - prioritized remediation path when the cause is sufficiently supported
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. The cause ranking is grounded in the shape of the data: which queries, which pages, which countries, which devices, which dates. A ranking with no shape behind it is a guess.
+2. Demand change has been separated from site-specific change, using Google Trends or `analyze-search-demand-trends` when the difference would matter.
+3. Algorithmic-update attributions are only made when the update window and the drop window align. Otherwise the claim is held as "possible," not asserted.
+4. Position-change observations are proportional. Small position movement on an otherwise healthy page is not a finding.
+5. Where evidence is inconclusive, the next check that would discriminate between causes is named explicitly.
+6. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore").

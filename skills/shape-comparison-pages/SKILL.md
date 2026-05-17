@@ -82,3 +82,15 @@ Produce:
 - the evidence ledger and missing research
 - the top reasons each page would deserve visibility
 - a `do now / test next / defer` ladder when multiple opportunities compete
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. Every recommended page can offer original evidence, first-hand insight, or a clearer decision than existing results. Pages that cannot meet that bar are deferred, not shipped.
+2. Final copy has not been drafted. The work stops at briefs, evidence ledgers, and findings.
+3. Every negative claim about a compared product, service, or brand carries evidence. Vendor public claims are not relabelled as original research.
+4. The chosen format (single alternative, ranked list, head-to-head, scenario-led) is justified by the user's decision and the available evidence, not by the keyword pattern.
+5. Where the best answer is conditional, the condition is named explicitly. A forced universal winner over a genuinely conditional answer is rewritten or split.
+6. Verbs name their object. A page is not "useful" or "differentiated" without saying for which reader, on which decision, and against which alternatives.
+7. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore").

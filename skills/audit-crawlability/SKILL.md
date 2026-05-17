@@ -53,3 +53,13 @@ Produce:
 - a list of orphaned or weakly discovered important URLs
 - a list of crawl-waste patterns
 - prioritized findings using the shared audit contract
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. Crawlability claims stay in their lane. A blocked URL is not relabelled "deindexed"; indexability questions are handed to `audit-indexability`.
+2. Conclusions that depend on JavaScript-generated links wait for `audit-js-rendering`. The report says so explicitly where the dependency exists.
+3. Sitemap inclusion is not treated as evidence that a URL is integrated into the link graph. Orphan detection uses internal links, not the sitemap.
+4. Verbs name their object. A URL is not "blocked" without saying by what (robots.txt rule, meta directive, auth wall); not "orphaned" without saying from what (navigation, internal links, sitemap).
+5. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore").

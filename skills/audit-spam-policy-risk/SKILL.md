@@ -47,3 +47,14 @@ Produce:
 - confirmed violations versus indicators versus non-findings
 - prioritized findings using the shared audit contract
 - immediate containment or verification steps when the risk could affect broad Search eligibility
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. Confirmed violations, strong indicators, and ordinary quality issues are kept in three distinct buckets. None of them is allowed to bleed into another to inflate severity.
+2. AI-assisted content on its own is not the finding. The manipulative pattern, the scale, or the deception is named explicitly.
+3. Evidence is template- or system-level. A single anomalous URL does not become a spam-policy claim against the site.
+4. Where Search Console manual-action data is available, it is treated as privileged but the on-site pattern that likely caused it is preserved in the finding.
+5. Verbs name their object. A site is not "spammy" or "risky" without naming the specific policy family and the observed pattern that triggers it.
+6. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore").

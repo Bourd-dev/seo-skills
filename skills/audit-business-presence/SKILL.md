@@ -43,3 +43,13 @@ Produce:
 - missing or inaccurate official details
 - prioritized findings using the shared audit contract
 - follow-up checks that require account access or business-owner confirmation
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. Markup defects are routed to `audit-structured-data`, not double-counted here. This skill reports presence; that skill reports validity.
+2. "Not applicable" is recorded as not applicable. Absence of a Business Profile for a remote-only SaaS is not a finding.
+3. No local-ranking folklore. Recommendations sit on official Google-documented presence checks, not category received wisdom.
+4. Verbs name their object. A business is not "missing" or "incomplete" without naming the specific field, profile, or surface.
+5. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore").

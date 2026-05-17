@@ -1,6 +1,6 @@
 ---
 name: audit-search-performance
-description: Audit current Google Search performance using Search Console and Google Analytics evidence. Use when reviewing clicks, impressions, queries, organic sessions, landing-page performance, engagement, conversions, or whether the site has enough measurement to support SEO recommendations.
+description: Audit current Google Search performance using Search Console, Google Analytics, and Core Web Vitals field data (CrUX). Use when reviewing clicks, impressions, queries, organic sessions, landing-page performance, engagement, conversions, Core Web Vitals (LCP, INP, CLS), or whether the site has enough measurement to support SEO recommendations.
 ---
 
 # Audit search performance
@@ -13,12 +13,12 @@ Describe how the site is currently performing in Google Search and whether the a
 
 1. Read `references/search-performance.md`, `references/audit-output-contract.md`, and `references/opportunity-prioritization.md`.
 2. Establish which data is available:
-   - Search Console
+   - Search Console clicks, impressions, queries, landing pages
+   - Core Web Vitals field data via Search Console (Experience → Core Web Vitals), a supplied CrUX export, or the PageSpeed Insights API
    - Google Analytics
-   - both
-   - neither
 3. When available, inspect:
    - Search Console clicks, impressions, queries, landing pages, and relevant breakdowns
+   - Core Web Vitals per the "Core Web Vitals" section of `references/search-performance.md`: URL-level CrUX first, origin-level CrUX as a labelled fallback, lab data only as a separate labelled signal, explicit unknown when no field data is available
    - Google Analytics organic sessions from Google, engagement, landing pages, and conversions or key events
 4. Compare:
    - visibility versus behavior after the click
@@ -47,3 +47,13 @@ Produce:
 - top visibility and engagement patterns
 - prioritized findings using the shared audit contract
 - follow-up questions where more privileged data would change the recommendation
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. Search Console totals and Google Analytics totals are not compared as if they should match. Differences between the two are explained, not treated as defects.
+2. Every Core Web Vitals number carries its source label: URL-level CrUX, origin-level CrUX, or lab. Lab data is not used as a substitute for field data, and a missing field signal is recorded as unknown.
+3. Where the question is "what happened to our traffic?", the work is handed to `diagnose-search-traffic-drop`. A baseline audit is not turned into incident response.
+4. Verbs name their object. A page is not "performing well" without naming the measure (clicks, impressions, CTR, sessions, engagement, conversions).
+5. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore").

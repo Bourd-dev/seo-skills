@@ -22,7 +22,6 @@ prepare-predeploy-seo-audit
 - `audit-helpful-content`
 - `audit-structured-data`
 - `audit-media-seo`
-- `audit-page-experience`
 - `audit-spam-policy-risk`
 
 ## Usually needs live follow-up

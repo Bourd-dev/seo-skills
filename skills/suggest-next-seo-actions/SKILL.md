@@ -58,3 +58,14 @@ Produce:
 - a short "do now / test next / defer" ladder
 - evidence and rationale for each recommendation
 - any assumptions or missing inputs that could change the ranking
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. The dominant constraint is named in one sentence before any recommendation. If you cannot name it, you do not yet have a recommendation, you have a list.
+2. Each deferred item carries the condition that would promote it to "do now." A defer without a condition is just a dropped idea.
+3. Foundational fixes come before additive growth work. No new content recommendations sit above an unresolved crawl, index, or render blocker.
+4. AEO and GEO requests are translated into grounded SEO work. The output does not invent AI-specific rituals the primary sources do not document.
+5. Every recommendation cites its evidence: an audit finding, a Search Console pattern, or a primary source. Recommendations resting only on intuition are dropped or labelled as such.
+6. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore," "foster").

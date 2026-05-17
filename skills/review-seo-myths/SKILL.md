@@ -45,3 +45,14 @@ Produce:
 - verdict for each tactic
 - supporting source basis
 - supported replacement action where relevant
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. Verdicts rest on primary Google sources (Search Essentials, the AI optimization guide, spam policies, structured data guidance), not on category fashion or popular conjecture.
+2. "Unsupported by current guidance" and "explicitly contradicted" are kept distinct verdicts. Silence from Google is not treated as denial.
+3. Rejected tactics carry the closest supported replacement when one exists. A flat "do not do this" without an alternative is reserved for cases where no supported equivalent is available.
+4. Where the tactic targets an engine other than Google Search, the scope-of-adjudication rules have been applied. Claims about non-Google engines are scoped to that engine.
+5. Verbs name their object. A tactic is not "wrong" or "unnecessary" without naming the primary source that says so and the surface or feature it relates to.
+6. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore").

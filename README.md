@@ -68,7 +68,6 @@ Repeat for each skill you want installed.
 - `audit-on-page-signals`
 - `audit-helpful-content`
 - `audit-spam-policy-risk`
-- `audit-page-experience`
 - `audit-search-performance`
 - `audit-media-seo`
 - `audit-structured-data`

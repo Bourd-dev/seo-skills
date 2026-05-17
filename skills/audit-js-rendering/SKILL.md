@@ -44,3 +44,13 @@ Return:
 - high-risk missing or changed signals
 - prioritized findings using the shared audit contract
 - a note on whether server-side rendering, pre-rendering, or simpler HTML output would materially reduce risk
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. Findings cite the actual rendered DOM and the initial HTML side by side. Framework choice on its own is not evidence.
+2. Each critical signal sits in one of three buckets: present in initial HTML, present only after rendering, missing or materially altered after rendering. There is no fourth bucket.
+3. User-visible problems and crawler-visible problems are reported separately. A layout that looks fine in a browser can still strip head tags or links from the crawler view.
+4. Verbs name their object. Content is not "missing" without saying from which view; a link is not "broken" without saying whether it never existed, never rendered, or rendered without an `href`.
+5. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore").

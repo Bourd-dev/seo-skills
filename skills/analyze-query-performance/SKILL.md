@@ -48,3 +48,13 @@ Produce:
 - quadrant breakdown
 - prioritized query opportunities
 - recommended action for each surviving opportunity
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. The four quadrants are preserved. A flattened "top opportunities" list with no quadrant context hides the basis for each recommendation.
+2. Every action ties to a specific quadrant signal. "Improve CTR" without naming why the query is low-CTR is a guess wearing a verb.
+3. Relevance to the site has been checked before treating any low-CTR query as a problem. Irrelevant queries are dropped, not optimised.
+4. Verbs name their object. A query is not "performing" or "underperforming" without saying at what.
+5. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore").

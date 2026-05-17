@@ -24,4 +24,4 @@ Do not recommend these as necessary tactics for Google Search:
 
 ## Agentic frontier
 
-When the business benefits from browser agents, inspect semantic HTML, labels, stable layouts, accessibility tree clarity, and actionability. Treat this as a usability and machine-readability concern, not as a substitute for SEO fundamentals.
+When the business benefits from browser agents, inspect semantic HTML, labels, stable layouts, accessibility tree clarity, and actionability. Treat this as a usability and machine-readability concern. It does not replace SEO fundamentals.

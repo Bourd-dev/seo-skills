@@ -39,3 +39,13 @@ Produce:
 - major page groups and their relationships
 - orphan or weak-discovery risks
 - prioritized findings using the shared audit contract
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. "Everything is one click from the homepage" is treated as suspicious until the page relationships are shown to be clear. Flatness is not coherence.
+2. On client-side-rendered sites, architectural absences have been verified via the dual-view procedure before being asserted. Server-vs-rendered divergence is itself recorded as a finding.
+3. Browse paths are tested against the real navigation, not assumed from URL shape. A clean URL hierarchy that no one can actually click through is named as such.
+4. Verbs name their object. A page is not "orphaned" or "buried" without saying from what (top nav, footer, in-content links, breadcrumbs).
+5. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore").

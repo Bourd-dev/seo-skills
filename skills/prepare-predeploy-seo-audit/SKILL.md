@@ -26,7 +26,6 @@ Adapt the existing audit library to a source repository or local build so SEO is
    - `audit-helpful-content`
    - `audit-structured-data`
    - `audit-media-seo`
-   - `audit-page-experience`
    - `audit-spam-policy-risk`
    - selected parts of `audit-canonicalization`, `audit-js-rendering`, and `audit-indexability`
 6. Mark each conclusion as:
@@ -49,3 +48,13 @@ Produce:
 - applicable audit sequence
 - findings split by evidence confidence
 - post-deploy verification checklist
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. Each conclusion is labelled verified-preflight, inferred-from-source, or requiring-post-deploy. No conclusion is allowed to drift between categories.
+2. Production crawlability, indexing, Search Console performance, and field experience are never claimed from source inspection alone. Where the question would require live evidence, the post-deploy checklist carries it.
+3. The audit evaluates the generated HTML or local preview where available, not raw template source. Source-only inferences are flagged as such.
+4. Verbs name their object. A finding is not "verified" without naming the surface that verified it (built HTML, local preview, source template); not "deferred" without naming the post-deploy check that would settle it.
+5. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore").

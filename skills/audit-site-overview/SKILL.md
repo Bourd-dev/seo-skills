@@ -22,7 +22,7 @@ Build the smallest truthful map of the site: what it is, which templates matter,
    - major hubs, categories, or collections
    - important conversion paths
 5. Group URLs into representative templates before drawing conclusions.
-6. Note obvious red flags without trying to finish every specialist audit.
+6. Note obvious red flags. Do not try to finish a specialist audit here.
 7. Recommend the next skills to run, in dependency order.
 
 ## Minimum output
@@ -52,3 +52,13 @@ Use this skill to feed:
 - `audit-indexability`
 - `audit-js-rendering`
 - `audit-canonicalization`
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. Every site-wide claim rests on template-level evidence, not on a single URL or the homepage.
+2. Unknown is labelled as unknown. Healthy is labelled as healthy. The two are not collapsed.
+3. The recommended next-skill sequence respects dependency order: eligibility, then understanding, then deservingness.
+4. Verbs name their object. A page is not "performing" or "losing" without saying at what.
+5. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "realm," "underscore," "foster").

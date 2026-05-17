@@ -40,3 +40,13 @@ Produce:
 - a content-quality summary by sampled page or template
 - recurring trust and distinctiveness gaps
 - prioritized findings using the shared audit contract
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. Quality judgments cite specific page evidence: a missing source, a stale date, a copied paragraph, a thin section. Generic "this could be improved" is dropped.
+2. AI-assistance is not the finding. The finding is the manipulative pattern, the inaccuracy, or the missing first-hand experience visible in the finished page.
+3. Factual unreliability is escalated as its own category, separate from low distinctiveness. A wrong page and a forgettable page are different problems.
+4. Verbs name their object. A page is not "weak" or "underperforming" without naming the dimension (originality, completeness, trust, freshness) and the evidence behind the call.
+5. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore").

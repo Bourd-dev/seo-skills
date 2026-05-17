@@ -39,3 +39,13 @@ Produce:
 - product-data gaps by template or feed surface
 - prioritized findings using the shared audit contract
 - follow-up checks requiring Merchant Center, feed, or business-operations access
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. The "is this actually an ecommerce site?" gate has been passed. If the site sells nothing, the audit was stopped and recorded as not applicable.
+2. Markup-validity defects are routed to `audit-structured-data`. Media defects are routed to `audit-media-seo`. This skill reports the product-data picture, not its constituent parts twice.
+3. Merchant Center is not implied as required for ordinary Search visibility. Recommendations tied to it are scoped to the commerce surfaces that actually need it.
+4. Verbs name their object. A product is not "incomplete" without naming which fields; a page is not "ineligible" without naming the surface it would have qualified for.
+5. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore").

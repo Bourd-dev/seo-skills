@@ -39,3 +39,13 @@ Return:
 - media visibility summary by template
 - high-risk discoverability or eligibility gaps
 - prioritized findings using the shared audit contract
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. Image and video are reported as separate surfaces with separate failure modes. Findings do not blend the two into one media verdict.
+2. Decorative media and value-bearing media are distinguished. A missing alt on a spacer image is not the same finding as a missing alt on a product photo.
+3. Where media depends on user interaction or client-side injection to become available, the conclusion is paired with `audit-js-rendering`, not assumed.
+4. Verbs name their object. Media is not "missing" without saying from which view (raw HTML, rendered DOM, sitemap); not "ineligible" without naming the feature that would have qualified.
+5. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore").

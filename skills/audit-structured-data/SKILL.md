@@ -41,3 +41,14 @@ Produce:
 - markup inventory by template
 - eligibility and truthfulness issues
 - prioritized findings using the shared audit contract
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. Valid-but-misleading markup is surfaced as its own failure category. Validity alone is not credited as correctness.
+2. Feature-eligibility issues and cleanup-only issues are distinguished. A missing `recommended` property that does not affect any feature is not raised to the priority table.
+3. No recommendations for invented AI-specific schema or markup added "for generative AI visibility." The supported feature is named or the recommendation is dropped.
+4. On client-side-rendered sites, absent JSON-LD has been verified via the dual-view procedure before being asserted. Rendered-only markup is recorded as such.
+5. Verbs name their object. Markup is not "wrong" or "broken" without naming the specific type, property, or visible-page disagreement.
+6. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore").

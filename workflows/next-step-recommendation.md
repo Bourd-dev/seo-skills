@@ -41,7 +41,6 @@ Return:
 Use these when they materially change the answer:
 
 - `audit-search-performance`
-- `audit-page-experience`
 - `audit-media-seo`
 - `audit-structured-data`
 - `audit-business-presence`

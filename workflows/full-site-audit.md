@@ -14,7 +14,7 @@ audit-site-overview
 
 1. Map the site and choose representative scope.
 2. Run the technical spine first when eligibility is uncertain.
-3. Add discoverability, content, spam-policy, and page-experience audits once the basic surface is understood.
+3. Add discoverability, content, and spam-policy audits once the basic surface is understood.
 4. Add conditional audits only when the site or business model makes them material.
 5. Merge all findings into one report before asking the suggestion arm what to do next.
 

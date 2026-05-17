@@ -41,3 +41,13 @@ Return:
 - a signal matrix by template or sampled page
 - duplicated or conflicting patterns
 - prioritized findings using the shared audit contract
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. Findings are template-wide where the evidence supports a template-wide claim. URL-anecdotal findings are reserved for genuinely one-off pages.
+2. Signal mismatch is the finding when it occurs. The absence of a keyword is not, on its own, a signal-quality problem.
+3. A polished meta description is not credited as offsetting weak page content. The page-content problem is named in its own finding.
+4. Verbs name their object. A title is not "weak" without saying weak in what sense (duplicate across templates, boilerplate, mismatched with H1, ambiguous, too long for the snippet).
+5. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore").

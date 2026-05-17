@@ -15,7 +15,6 @@ const LIVE_SITE_SKILLS = [
   "audit-on-page-signals",
   "audit-helpful-content",
   "audit-spam-policy-risk",
-  "audit-page-experience",
   "audit-media-seo",
   "audit-structured-data",
   "audit-business-presence",

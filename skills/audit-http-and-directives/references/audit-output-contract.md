@@ -34,7 +34,7 @@ Use `schemas/audit-finding.schema.json` when machine-readable output is needed.
 - Distinguish observed facts from inferences.
 - Do not report an issue when the evidence only shows possibility; record it as a follow-up check instead.
 - Preserve a representative URL sample when a site-wide conclusion is inferred from templates.
-- Every recommendation in a finding must rest on either (a) a directly observed fact about the audited site, or (b) a primary source — Google Search documentation (Search Essentials, technical requirements, spam policies, structured data, helpful-content guidance), the Agent Skills spec, or a standards body for the relevant surface (e.g. schema.org for structured data). Do not recommend a pattern Google or another primary source does not document.
+- Every recommendation in a finding must rest on either (a) a directly observed fact about the audited site, or (b) a primary source: Google Search documentation (Search Essentials, technical requirements, spam policies, structured data, helpful-content guidance), the Agent Skills spec, or a standards body for the relevant surface (e.g. schema.org for structured data). Do not recommend a pattern Google or another primary source does not document.
 
 ## Tooling reliability
 

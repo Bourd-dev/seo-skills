@@ -43,3 +43,14 @@ Return:
 - prioritized findings using the shared audit contract
 - a short list of intentional directives that should remain unchanged
 - unknowns that require Search Console, logs, or stakeholder confirmation
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. Crawling controls and indexing controls are kept distinct. A `robots.txt` disallow is reported as blocking discovery, not as a `noindex`.
+2. Intentional directives are documented as intentional. They sit in their own short list, not in the defect set.
+3. Soft-200 errors are flagged even when the status code looks healthy. A 200 returning an error page is a finding, not a pass.
+4. `noindex` is never recommended on a URL the crawler cannot reach to read it. The recommendation pairs the directive change with the access change.
+5. Verbs name their object. A URL is not "blocked" without naming the directive doing the blocking; not "broken" without naming which response, header, or body proves the break.
+6. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore").

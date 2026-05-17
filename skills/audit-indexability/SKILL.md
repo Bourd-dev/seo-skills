@@ -44,3 +44,14 @@ Produce:
 - an indexability matrix by template or representative URL
 - findings ordered by whether they block core business pages first
 - clear follow-up checks for cases that require Search Console evidence
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. Crawlable, indexable, indexed, and ranking are kept as four distinct verdicts. None of them is used as a synonym for another.
+2. Canonical relationships are factored into the indexability call. A page with no `noindex` but a canonical pointing elsewhere is not labelled indexable as intended.
+3. Where meaningful content appears only after rendering, the rendered DOM has been incorporated before concluding. Untested rendering is recorded as an unknown.
+4. Possibility is not promoted to finding. If the evidence only supports "may be," it is recorded as a follow-up check, not as a verdict.
+5. Verbs name their object. A page is not "blocked" or "excluded" without naming which signal does the work (directive, canonical, render gap, response code).
+6. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore").

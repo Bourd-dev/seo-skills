@@ -48,3 +48,13 @@ Produce:
 - top candidate opportunities with evidence
 - existing-demand versus emerging-demand split
 - assumptions and missing data that could change the ranking
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. Foundational blockers are confirmed resolved or explicitly accounted for. Opportunity work that sits on top of a crawl or index blocker is named as such, not silently recommended.
+2. Trendiness on its own is not strategic fit. Each candidate carries a fit check: business, audience, and existing coverage.
+3. Existing-demand and emerging-demand candidates are split, not merged. The two require different evidence and different timelines, and the split keeps both legible.
+4. Verbs name their object. A query is not "an opportunity" without naming the measure that makes it one (impression volume, low position with high CTR, rising demand, market gap).
+5. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore").

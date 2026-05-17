@@ -42,3 +42,13 @@ Produce:
 - dominant and secondary interpretations
 - content-fit judgment for current or proposed pages
 - recommended next move where mismatch exists
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. Ambiguity is preserved when multiple intents are plausible. A query with two reasonable interpretations is recorded as such, not flattened to a single dominant call.
+2. Intent is derived from the rubric (Know, Know Simple, Do, Website, Visit-in-Person), not from keyword overlap with the query text.
+3. Where the target queries were derived from the site, the derivation source is recorded for each query so the basis is auditable.
+4. Verbs name their object. A page is not "off-purpose" or "mismatched" without naming the intent dimension that diverges (interpretation, locale, freshness, content type, depth).
+5. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore").

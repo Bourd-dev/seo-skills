@@ -116,7 +116,6 @@ These are useful doctrine support, but should usually reinforce a reference rath
 - `site-audit-sampling`
 - `information-architecture`
 - `on-page-signals`
-- `page-experience`
 - `media-seo`
 - `structured-data-policies`
 - `business-presence`

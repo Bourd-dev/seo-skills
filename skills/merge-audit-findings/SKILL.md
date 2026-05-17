@@ -57,3 +57,14 @@ Produce:
 - final prioritized findings set
 - dependency-aware fix sequence
 - unresolved unknowns that should stay visible to downstream recommendation work
+
+## Before returning output
+
+Run these checks against the draft before handing it back.
+
+1. Duplicates collapse only on shared root cause. Findings that share a page or a category but not a cause stay separate.
+2. Disagreement between sources is explained, not averaged. Where two inputs ranked the same issue at different severities, the merged finding records both and the basis for the chosen call.
+3. Each merged finding maps to one coherent remediation unit. A "finding" that requires three independent fixes is split back into three.
+4. Dependent and adjacent findings are kept separate from duplicates. The relationship is recorded so the fix sequence reads as a sequence, not a heap.
+5. Verbs name their object. Findings are not "related" without saying how (duplicate, supporting, dependent, adjacent); priorities are not "high" without naming the basis (blocker, severity, scope, confidence).
+6. No em-dashes. No "X, not Y" reversals. No filler ("delve," "landscape," "navigate" as metaphor, "journey," "underscore").
