@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit ecommerce readiness"
+  short_description: "Check product-data readiness for Search"
+  default_prompt: "Use $audit-ecommerce-readiness to inspect whether this ecommerce site exposes the product data Google documents for relevant surfaces."

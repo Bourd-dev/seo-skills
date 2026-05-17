@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit canonicalization"
+  short_description: "Review canonical signals and duplicates"
+  default_prompt: "Use $audit-canonicalization to inspect duplicate URLs and canonical signals."

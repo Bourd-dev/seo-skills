@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit site overview"
+  short_description: "Map site scope and SEO risk areas"
+  default_prompt: "Use $audit-site-overview to inspect this site and map the highest-risk SEO areas."

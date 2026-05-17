@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit helpful content"
+  short_description: "Assess usefulness and distinctiveness"
+  default_prompt: "Use $audit-helpful-content to assess whether these pages are useful, reliable, and distinctive enough to deserve visibility."

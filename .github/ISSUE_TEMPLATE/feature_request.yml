@@ -1,0 +1,44 @@
+name: Feature request
+description: Suggest a change to an existing skill, reference, workflow, or tool. Use the "Skill proposal" template if you want a brand-new skill.
+title: "[feat] "
+labels: ["enhancement", "triage"]
+body:
+  - type: input
+    id: target
+    attributes:
+      label: What this changes
+      description: Skill, reference, workflow, tool, or doc.
+      placeholder: references/opportunity-prioritization.md
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What real decision is harder than it should be today? Avoid solution shapes here.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: What should change, concretely. Cite the official source if the change reflects updated Google or Agent Skills guidance.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This change keeps the affected skill focused on a single decision or workflow.
+        - label: Doctrine claims are backed by official sources (Google Search docs, Agent Skills spec) rather than opinion.

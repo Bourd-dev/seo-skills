@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit indexability"
+  short_description: "Check eligibility to appear in Search"
+  default_prompt: "Use $audit-indexability to determine whether important URLs are eligible to be indexed."

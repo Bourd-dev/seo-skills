@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit structured data"
+  short_description: "Review markup validity and truthfulness"
+  default_prompt: "Use $audit-structured-data to inspect whether this site markup is valid, truthful, and eligible for relevant search features."

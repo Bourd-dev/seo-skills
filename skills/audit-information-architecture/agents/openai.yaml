@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit information architecture"
+  short_description: "Inspect hierarchy and internal discovery"
+  default_prompt: "Use $audit-information-architecture to inspect this site hierarchy, hubs, and internal discovery paths."

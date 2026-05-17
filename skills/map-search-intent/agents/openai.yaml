@@ -1,0 +1,4 @@
+interface:
+  display_name: "Map search intent"
+  short_description: "Clarify query meaning before page choices"
+  default_prompt: "Use $map-search-intent to map the likely intent behind these queries before recommending page types."

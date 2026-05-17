@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze query performance"
+  short_description: "Surface Search Console query opportunities"
+  default_prompt: "Use $analyze-query-performance to identify the strongest query-level SEO opportunities in this Search Console export."

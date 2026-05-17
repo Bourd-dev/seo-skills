@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review SEO myths"
+  short_description: "Check tactics against current Google guidance"
+  default_prompt: "Use $review-seo-myths to test these SEO, AEO, or GEO recommendations against current official guidance."

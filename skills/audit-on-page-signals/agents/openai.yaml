@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit on-page signals"
+  short_description: "Review titles, headings, and snippets"
+  default_prompt: "Use $audit-on-page-signals to inspect how these pages describe themselves to users and Search."

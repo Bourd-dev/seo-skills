@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit page experience"
+  short_description: "Assess page experience across key templates"
+  default_prompt: "Use $audit-page-experience to assess whether these pages provide a good overall experience across Google's documented checks."

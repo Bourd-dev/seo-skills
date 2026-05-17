@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shape comparison pages"
+  short_description: "Shape evidence-led comparison briefs"
+  default_prompt: "Use $shape-comparison-pages to decide which comparison pages deserve to exist and what evidence each needs."

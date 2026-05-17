@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prepare predeploy SEO audit"
+  short_description: "Separate preflight proof from live checks"
+  default_prompt: "Use $prepare-predeploy-seo-audit to decide what can be verified before deployment and what still needs live confirmation."

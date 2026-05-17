@@ -1,0 +1,66 @@
+name: Skill proposal
+description: Propose a new installable skill for the library.
+title: "[skill] "
+labels: ["new-skill", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        New skills are added sparingly. The bar is: a real, recurring decision that isn't already covered by an existing skill or workflow, and that can be grounded in official documentation rather than opinion.
+
+  - type: input
+    id: name
+    attributes:
+      label: Proposed skill name
+      description: Lowercase, hyphen-separated. Should describe the decision, not the tactic.
+      placeholder: audit-internationalization
+    validations:
+      required: true
+
+  - type: textarea
+    id: decision
+    attributes:
+      label: What single decision does this skill make
+      description: One or two sentences. If you cannot state it crisply, the skill is probably too broad.
+    validations:
+      required: true
+
+  - type: textarea
+    id: when-to-use
+    attributes:
+      label: When a user should reach for it
+      description: Concrete trigger phrasings. These should feel distinct from any existing skill's description.
+    validations:
+      required: true
+
+  - type: textarea
+    id: existing-coverage
+    attributes:
+      label: Why existing skills do not cover this
+      description: Name the skills you considered and explain what is missing.
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Official sources
+      description: Links to Google Search documentation, Agent Skills specs, or other authoritative references this skill would lean on.
+    validations:
+      required: true
+
+  - type: textarea
+    id: output
+    attributes:
+      label: Output shape
+      description: What the skill should produce. Will it emit findings using the audit-finding schema? A different artifact? Sketch the structure.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: bar
+    attributes:
+      label: Quality bar
+      options:
+        - label: The skill is grounded in published doctrine, not personal opinion or speculation.
+        - label: I have read CONTRIBUTING.md and confirmed this fits the authoring rules.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze search demand trends"
+  short_description: "Interpret demand, seasonality, and regions"
+  default_prompt: "Use $analyze-search-demand-trends to interpret these trend signals and identify grounded demand opportunities."

@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets
+.env
+
+# Generated eval outputs (per-day folders under evals/)
+evals/
+
+# Node / package managers
+node_modules/
+bun.lockb
+
+# MCP browser session artifacts
+.playwright-mcp/
+
+# Build output
+dist/
+build/
+
+# Editors
+.vscode/
+.idea/

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit JS rendering"
+  short_description: "Compare source and rendered page content"
+  default_prompt: "Use $audit-js-rendering to inspect whether important content and links survive rendering."

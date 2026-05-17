@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit crawlability"
+  short_description: "Check whether important URLs can be found"
+  default_prompt: "Use $audit-crawlability to inspect whether important URLs are discoverable and crawlable."

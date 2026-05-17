@@ -1,0 +1,4 @@
+interface:
+  display_name: "Diagnose search traffic drop"
+  short_description: "Rank likely causes of organic decline"
+  default_prompt: "Use $diagnose-search-traffic-drop to determine the most likely causes of this organic traffic decline."

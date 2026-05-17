@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or discussion
+    url: https://github.com/Bourd-dev/seo-skills/discussions
+    about: Ask a question or start a discussion about how to use the library.
+  - name: Security vulnerability
+    url: https://github.com/Bourd-dev/seo-skills/blob/main/SECURITY.md
+    about: Please report vulnerabilities privately per SECURITY.md, not as an issue.

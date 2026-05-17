@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit spam policy risk"
+  short_description: "Inspect likely Google spam-policy risks"
+  default_prompt: "Use $audit-spam-policy-risk to inspect this site for likely Google Search spam-policy risks."

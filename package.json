@@ -1,0 +1,37 @@
+{
+  "name": "seo-skills",
+  "version": "0.1.0",
+  "description": "Installable Agent Skills library for evidence-led SEO audits and recommendations.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Bourd Pty Ltd",
+  "homepage": "https://github.com/Bourd-dev/seo-skills#readme",
+  "bugs": {
+    "url": "https://github.com/Bourd-dev/seo-skills/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bourd-dev/seo-skills.git"
+  },
+  "keywords": [
+    "agent-skills",
+    "skills",
+    "seo",
+    "search-console",
+    "site-audit",
+    "ai-search",
+    "claude",
+    "anthropic"
+  ],
+  "scripts": {
+    "sync:skills": "bun run tools/sync-skill-resources.ts",
+    "validate:skills": "bun run tools/validate-skills.ts",
+    "smoke:install": "bun run tools/smoke-install.ts",
+    "eval:skills": "bun run tools/eval-skills.ts",
+    "build:cowork": "bun run tools/build-skill-zips.ts",
+    "validate:skills-ref": "for skill in skills/*; do npx --yes skills-ref validate \"$skill\" || exit 1; done",
+    "smoke:cli": "npx --yes skills add . --list",
+    "check": "bun run sync:skills && bun run validate:skills && bun run smoke:install",
+    "check:public": "bun run check && bun run validate:skills-ref && bun run smoke:cli"
+  }
+}

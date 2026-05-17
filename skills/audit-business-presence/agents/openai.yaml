@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit business presence"
+  short_description: "Review official business details in Search"
+  default_prompt: "Use $audit-business-presence to inspect whether this business has established accurate official details across Google Search surfaces."

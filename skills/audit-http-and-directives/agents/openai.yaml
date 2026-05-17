@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit HTTP and directives"
+  short_description: "Inspect status codes and index directives"
+  default_prompt: "Use $audit-http-and-directives to inspect response codes, robots rules, and indexing directives."

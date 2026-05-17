@@ -1,0 +1,4 @@
+interface:
+  display_name: "Suggest next SEO actions"
+  short_description: "Prioritize the next SEO moves"
+  default_prompt: "Use $suggest-next-seo-actions to turn these findings into the next highest-impact SEO actions."

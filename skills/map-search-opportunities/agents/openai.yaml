@@ -1,0 +1,4 @@
+interface:
+  display_name: "Map search opportunities"
+  short_description: "Find grounded SEO growth opportunities"
+  default_prompt: "Use $map-search-opportunities to identify the strongest evidence-backed search growth opportunities."

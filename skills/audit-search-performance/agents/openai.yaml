@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit search performance"
+  short_description: "Review Search Console and Analytics signals"
+  default_prompt: "Use $audit-search-performance to summarize current organic visibility, engagement, and measurement gaps."

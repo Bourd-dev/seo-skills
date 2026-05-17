@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit media SEO"
+  short_description: "Inspect image and video visibility"
+  default_prompt: "Use $audit-media-seo to inspect image and video visibility surfaces on this site."

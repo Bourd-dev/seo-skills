@@ -1,0 +1,4 @@
+interface:
+  display_name: "Merge audit findings"
+  short_description: "Deduplicate and sequence audit findings"
+  default_prompt: "Use $merge-audit-findings to reconcile these audit outputs into one dependency-aware findings set."

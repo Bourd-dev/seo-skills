@@ -1,0 +1,61 @@
+name: Bug report
+description: Something in the library is broken, wrong, or misleading.
+title: "[bug] "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug. Please fill in the sections below so we can reproduce it.
+
+  - type: input
+    id: skill
+    attributes:
+      label: Affected skill or tool
+      description: Skill name, tool path, or "library-wide".
+      placeholder: audit-indexability
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: A concrete description of the wrong behavior. Include exact output, error messages, or a transcript snippet.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce
+      description: Minimal steps. If applicable, the exact `skills add` or `bun run` command, plus the target site or input.
+      placeholder: |
+        1. `npx skills add Bourd-dev/seo-skills --skill audit-indexability`
+        2. Prompt: "..."
+        3. Observed: ...
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Library version or commit
+      placeholder: 0.1.0 or commit SHA
+    validations:
+      required: true
+
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      description: OS, runtime (bun/node version), CLI versions (`skills --version`, `claude --version` if relevant).
+    validations:
+      required: false
